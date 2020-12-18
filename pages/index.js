@@ -43,6 +43,16 @@ export default function Home() {
           <section>
             <h2 className="text-3xl font-medium text-gray-800">Independent development studio focused on crafting quality experiences.</h2>
           </section>
+          <section>
+            <a
+              className="inline-flex items-center justify-center px-8 py-2.5 font-medium text-white transition duration-200 ease-in-out transform rounded-lg shadow-lg bg-gradient-to-br from-gray-700 to-gray-900 focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-gray-900 hover:-translate-y-1 focus:translate-y-0 hover:from-gray-600 hover:to-gray-800"
+              href="mailto:hi@krafted.dev"
+            >
+              <span className="mt-0.5 text-lg">
+                Let's talk
+              </span>
+            </a>
+          </section>
         </div>
       </main>
     </>
