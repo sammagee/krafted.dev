@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Krafted</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
       <main className="flex items-center justify-center h-screen font-sans bg-white bg-gradient-to-br from-white to-gray-200">
