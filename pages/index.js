@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main className="flex items-center justify-center h-screen font-sans bg-white">
-        <div className="grid max-w-xl grid-cols-1 gap-6">
+        <div className="grid w-full max-w-xl grid-cols-1 gap-6 px-8">
           <header className="flex items-center space-x-5 text-6xl font-extrabold">
             <div className="flex items-center justify-center w-24 h-24 border shadow-xl rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900">
               <svg className="w-16" viewBox="0 0 1733 1602" fill="none" xmlns="http://www.w3.org/2000/svg">
