@@ -1,65 +1,50 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
+        <title>Krafted</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <main className="flex items-center justify-center h-screen font-sans bg-white">
+        <div className="grid max-w-xl grid-cols-1 gap-6">
+          <header className="flex items-center space-x-5 text-6xl font-extrabold">
+            <div className="flex items-center justify-center w-24 h-24 border shadow-xl rounded-2xl bg-gradient-to-br from-gray-700 to-gray-900">
+              <svg className="w-16" viewBox="0 0 1733 1602" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="325.92" y="87.3978" width="956.088" height="956.088" rx="197.453" fill="#EE4444"/>
+                <rect x="325.92" y="87.3978" width="956.088" height="956.088" rx="197.453" fill="url(#paint0_linear)"/>
+                <rect x="325.92" y="87.3978" width="956.088" height="956.088" rx="197.453" stroke="transparent" strokeWidth="173.204"/>
+                <path d="M1293.5 516.071C1217.44 384.795 1027.89 384.795 951.817 516.07L626.286 1077.86C550.009 1209.49 644.991 1374.31 797.129 1374.31H1448.19C1600.33 1374.31 1695.31 1209.49 1619.04 1077.86L1293.5 516.071Z" fill="#3B82F6"/>
+                <path d="M1293.5 516.071C1217.44 384.795 1027.89 384.795 951.817 516.07L626.286 1077.86C550.009 1209.49 644.991 1374.31 797.129 1374.31H1448.19C1600.33 1374.31 1695.31 1209.49 1619.04 1077.86L1293.5 516.071Z" fill="url(#paint1_linear)"/>
+                <path d="M1293.5 516.071C1217.44 384.795 1027.89 384.795 951.817 516.07L626.286 1077.86C550.009 1209.49 644.991 1374.31 797.129 1374.31H1448.19C1600.33 1374.31 1695.31 1209.49 1619.04 1077.86L1293.5 516.071Z" stroke="transparent" strokeWidth="173.204"/>
+                <circle cx="564.942" cy="1036.56" r="478.044" fill="#FACC16"/>
+                <circle cx="564.942" cy="1036.56" r="478.044" fill="url(#paint2_linear)"/>
+                <circle cx="564.942" cy="1036.56" r="478.044" stroke="transparent" strokeWidth="173.204"/>
+                <defs>
+                <linearGradient id="paint0_linear" x1="412.522" y1="174" x2="1195.41" y2="956.884" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#ED4897"/>
+                  <stop offset="1" stopColor="#F43F5F"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear" x1="604.779" y1="393.97" x2="1640.13" y2="1288.19" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#3ABBF8"/>
+                  <stop offset="1" stopColor="#6367F1"/>
+                </linearGradient>
+                <linearGradient id="paint2_linear" x1="173.5" y1="645.116" x2="956.384" y2="1428" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#F3E582"/>
+                  <stop offset="1" stopColor="#F97217"/>
+                </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h1 className="mt-1 text-gray-900">krafted</h1>
+          </header>
+          <section>
+            <h2 className="text-3xl font-medium text-gray-800">Independent development studio focused on crafting quality experiences.</h2>
+          </section>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    </>
   )
 }
