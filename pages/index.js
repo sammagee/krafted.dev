@@ -52,7 +52,7 @@ export default function Home() {
               <p className="mt-2 text-lg text-gray-600">
                 We create software ranging from mobile apps to websites that focus on helping you get things done.
                 <div className="my-2" />
-                Feel free to drop a line if you or your team has an idea that needs to be <span className="font-mono group"><span className="hidden line-through transition-all duration-100 ease-in-out bg-red-200 group-hover:inline">c</span><span className="inline bg-green-200 group-hover:hidden">k</span>rafted</span>
+                Feel free to drop a line if you or your team has an idea that needs to be <span className="line-through bg-red-200">c</span><span className="bg-green-200">k</span>rafted.
               </p>
 
               <div className="flex items-center mt-5 space-x-5">
