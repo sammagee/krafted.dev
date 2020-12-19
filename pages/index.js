@@ -46,11 +46,13 @@ export default function Home() {
             </Link>
 
             <section>
-              <h2 className="text-3xl font-medium text-gray-800">Independent development studio focused on crafting quality experiences.</h2>
+              <h2 className="text-3xl font-medium text-gray-800">
+                Independent development studio focused on creating quality experiences.
+              </h2>
               <p className="mt-2 text-lg text-gray-600">
                 We create software ranging from mobile apps to websites that focus on helping you get things done.
                 <div className="my-2" />
-                Feel free to drop a line!
+                Feel free to drop a line if you or your team has an idea that needs to be <span className="font-mono group"><span className="hidden line-through transition-all duration-100 ease-in-out bg-red-200 group-hover:inline">c</span><span className="inline bg-green-200 group-hover:hidden">k</span>rafted</span>
               </p>
 
               <div className="flex items-center mt-5 space-x-5">
