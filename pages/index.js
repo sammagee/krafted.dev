@@ -45,10 +45,15 @@ export default function Home() {
               </a>
             </Link>
 
-            <section className="space-y-5">
+            <section>
               <h2 className="text-3xl font-medium text-gray-800">Independent development studio focused on crafting quality experiences.</h2>
+              <p className="mt-2 text-lg text-gray-600">
+                We create software ranging from mobile apps to websites that focus on helping you get things done.
+                <div className="my-2" />
+                Feel free to drop a line!
+              </p>
 
-              <div className="flex items-center space-x-5">
+              <div className="flex items-center mt-5 space-x-5">
                 <a
                   className="inline-flex items-center justify-center px-8 py-2.5 font-medium text-white transition duration-200 ease-in-out transform rounded-lg shadow-lg bg-gradient-to-br from-gray-600 to-gray-900 focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-gray-900 hover:-translate-y-1 focus:translate-y-0 hover:from-gray-500 hover:to-gray-800"
                   href="mailto:hi@krafted.dev"
@@ -59,7 +64,7 @@ export default function Home() {
                 </a>
 
                 <Link href="/tools">
-                  <a className="relative text-gray-800 border-b-2 border-gray-300">
+                  <a className="relative hidden text-gray-800 transition duration-200 ease-in-out transform border-b-2 border-gray-300 focus:outline-none hover:-translate-y-1 hover:border-gray-400 focus:border-gray-400 focus:translate-y-0">
                     Check out our tools
                   </a>
                 </Link>
