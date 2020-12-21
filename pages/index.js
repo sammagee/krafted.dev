@@ -69,11 +69,12 @@ export default function Home() {
                   </span>
                 </a>
 
-                <Link href="/tools">
-                  <a className="relative hidden text-gray-800 transition duration-200 ease-in-out transform border-b-2 border-gray-300 focus:outline-none hover:-translate-y-1 hover:border-gray-400 focus:border-gray-400 focus:translate-y-0">
-                    Check out our tools
-                  </a>
-                </Link>
+                <a
+                  href="//sammagee.me/work"
+                  className="relative hidden text-gray-800 transition duration-200 ease-in-out transform border-b-2 border-gray-300 focus:outline-none hover:-translate-y-1 hover:border-gray-400 focus:border-gray-400 focus:translate-y-0"
+                >
+                  Check out our tools
+                </a>
               </div>
             </section>
           </header>
