@@ -5,10 +5,11 @@ module.exports = {
     './pages/**/*.js',
     './components/**/*.js',
   ],
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
+        gray: colors.trueGray,
         orange: colors.orange,
       },
       fontFamily: {

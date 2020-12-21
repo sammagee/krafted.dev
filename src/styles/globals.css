@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer components {
+  *:hover {
+    @apply transition-colors duration-200 ease-in-out;
+  }
+
   body {
     -webkit-tap-highlight-color: transparent;
   }
