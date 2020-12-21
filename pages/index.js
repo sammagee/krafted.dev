@@ -71,7 +71,7 @@ export default function Home() {
 
                 <a
                   href="//sammagee.me/work"
-                  className="text-gray-800 transition duration-200 ease-in-out transform border-b-2 border-gray-300 focus:outline-none hover:-translate-y-1 hover:border-gray-400 focus:border-gray-400 focus:translate-y-0"
+                  className="text-gray-800 transition duration-200 ease-in-out transform border-b-2 border-gray-300 focus:outline-none hover:-translate-y-1 hover:border-gray-200 hover:text-gray-400 focus:border-gray-200 focus:translate-y-0 dark:text-gray-400 dark:hover:text-gray-500 dark:border-gray-700 dark:hover:border-gray-800 dark:focus:border-gray-800"
                 >
                   Check out our work
                 </a>
