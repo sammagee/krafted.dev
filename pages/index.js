@@ -15,7 +15,7 @@ export default function Home() {
           <header className="space-y-5 md:space-y-0 md:space-x-5 md:flex md:items-start">
             <button
               aria-label="Toggle Dark Mode"
-              className="flex items-center justify-center flex-shrink-0 w-16 h-16 transition duration-200 ease-in-out transform bg-black bg-gray-900 shadow-xl rounded-2xl focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-blue-500 hover:-translate-y-1 focus:translate-y-0 dark:focus:ring-offset-black"
+              className="flex items-center justify-center flex-shrink-0 w-16 h-16 transition duration-200 ease-in-out transform bg-gray-900 shadow-xl hover:bg-gray-800 rounded-2xl focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-blue-500 hover:-translate-y-1 focus:translate-y-0 dark:focus:ring-offset-black"
               onClick={toggleTheme}
             >
               <svg className="w-8" viewBox="0 0 1460 1319" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +61,7 @@ export default function Home() {
 
               <div className="flex items-center mt-5 space-x-5">
                 <a
-                  className="inline-flex items-center justify-center px-8 py-2.5 font-medium text-white transition duration-200 ease-in-out transform rounded-lg shadow-lg focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-blue-500 hover:-translate-y-1 focus:translate-y-0 bg-gray-900 dark:focus:ring-offset-black"
+                  className="inline-flex items-center justify-center px-8 py-2.5 font-medium text-white transition duration-200 ease-in-out transform rounded-lg shadow-lg focus:outline-none focus:ring-4 focus:ring-offset-4 focus:ring-offset-white focus:ring-blue-500 hover:-translate-y-1 focus:translate-y-0 bg-gray-900 hover:bg-gray-800 dark:focus:ring-offset-black"
                   href="mailto:hi@krafted.dev"
                 >
                   <span className="mt-0.5 text-lg">
